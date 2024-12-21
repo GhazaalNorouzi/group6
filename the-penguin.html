@@ -135,6 +135,42 @@
           </tbody>
         </table>
       </section>
+      <section id="domment-section">
+        <form action="#">
+          <h4><label for="comment">Write your comment:</label></h4>
+          <textarea
+            name="comment"
+            id="comment"
+            cols="20"
+            rows="5"
+            placeholder="Something..."
+          ></textarea>
+          <br />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+          <br />
+          <label for="pass">Password:</label>
+          <input
+            type="pass"
+            minlength="8"
+            maxlength="16"
+            placeholder="Enter Your Password"
+          />
+          <br />
+          <h4>Contains spoilers</h4>
+          <label for="yes">Yes</label>
+          <input type="radio" id="yes" name="spoilers" value="yes" />
+          <label for="yes">No</label>
+          <input type="radio" id="no" name="spoilers" value="no" />
+          <br />
+          <button>Submit</button>
+        </form>
+      </section>
     </main>
     <footer></footer>
   </body>
