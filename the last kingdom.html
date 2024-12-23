@@ -8,22 +8,33 @@
     <title>the last kingdom</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Download-Box">Download</a></li>
+          <li><a href="#comment">Comment</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
     <main>
       <section>
         <figure></figure>
           <img
-            src="https://www.zarfilm.com/wp-content/uploads/2023/04/the-last-kingdom-seven-kings-must-die.258238-207x310.jpg"
-            alt="the-last-kingdom-seven-kings-must-die-cover"
+           src="./asset/the lastkingdom-cover.jpg"
+            alt="the-last-kingdom-cover"
           />
           <figcaption>
-            <h1>The Last Kingdom: Seven Kings Must Die 2023</h1>
+            <h1>The Last Kingdom</h1>
             <p>Genres:</p>
             <button>Action</button>
             <button>Historical</button>
             <button>Drama</button>
             <details open>
               <summary>Summary</summary>
-              <p>After the death of King Edward, Uhtred of Babbageburg and his companions adventure through a divided kingdom in the hope of finally uniting England.</p>
+              <p>In 872, the Vikings invaded Britain and conquered the land. Only one of the British rulers of that time managed to protect his territory from the Vikings. He was none other than Alfred the Great, the king of a land in southwestern Britain whose resistance and efforts to defeat the invading tribes marked the beginning of the formation of England as a country within the island of Britain. The main character of the story is a warrior, who is known in the film as Uhtred of Bebbanburg. During the Viking invasion of Britain, his father was killed as a child and he was taken prisoner.</p>
             </details>
             <div>
               <i class='bx bx-star'></i>
@@ -44,10 +55,10 @@
       </section>
       <section>
         <ul>
-          <li><a href="#Download Box">Download Box </a></li>
+          <li><a href="#Download-Box">Download Box </a></li>
           <li><a href=""> More Information</a></li>
           <li><a href=""> Related List</a></li>
-          <li><a href="lastkingdom-comment-form.html"> Comment </a></li>
+          <li><a href="#comment"> Comment </a></li>
           <li><a href="">FAQ</a></li>
         </ul>
       </section>
@@ -55,7 +66,7 @@
       <section>
         <table border="0.5px">
           <thead>
-            <caption id="Download Box">Download Box</caption>
+            <caption id="Download-Box">Download Box</caption>
             <tr>
               <th>season</th>
               <th>online</th>
@@ -105,6 +116,53 @@
         </table>
       </section>
       <hr>
+      <form id="comment" action="">
+        <label for="comment"
+          >Write your comment:
+          <br />
+          <textarea id="comment" name="" cols="20" rows="5"></textarea>
+        </label>
+        <br />
+        <label for="name">
+          Name
+          <input
+            type="text"
+            id="name"
+            name=""
+            required
+            placeholder="enter your name"
+          />
+        </label>
+        <br />
+        <label for="email">
+          Email
+          <input
+            type="email"
+            id="email"
+            name=""
+            required
+            placeholder="enter your Email"
+          />
+        </label>
+        <br />
+        <label for="spoile"
+          >Contains spoilers
+          <input type="radio" id="spoile" name="spoil" />
+        </label>
+        <br />
+        <button>submit</button>
+      </form>
+      <hr>
+      
     </main>
+    <footer>
+        
+      <ul>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Social Media</a></li>
+      </ul>
+      <p>© 2024 by apsfilm.com</p>
+    </footer>
   </body>
 </html>
