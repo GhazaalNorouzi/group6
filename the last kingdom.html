@@ -64,7 +64,7 @@
           <li><a href="#Download Box">Download Box </a></li>
           <li><a href=""> More Information</a></li>
           <li><a href=""> Related List</a></li>
-          <li><a href="lastkingdom-comment-form.html"> Comment </a></li>
+          <li><a href="#comment"> Comment </a></li>
           <li><a href="">FAQ</a></li>
         </ul>
       </section>
@@ -122,15 +122,53 @@
         </table>
       </section>
       <hr>
-      <footer>
-        
-        <ul>
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Social Media</a></li>
-        </ul>
-        <p>© 2024 by apsfilm.com</p>
-      </footer>
+      <form id="comment" action="">
+        <label for="comment"
+          >Write your comment:
+          <br />
+          <textarea id="comment" name="" cols="20" rows="5"></textarea>
+        </label>
+        <br />
+        <label for="name">
+          Name
+          <input
+            type="text"
+            id="name"
+            name=""
+            required
+            placeholder="enter your name"
+          />
+        </label>
+        <br />
+        <label for="email">
+          Email
+          <input
+            type="email"
+            id="email"
+            name=""
+            required
+            placeholder="enter your Email"
+          />
+        </label>
+        <br />
+        <label for="spoile"
+          >Contains spoilers
+          <input type="radio" id="spoile" name="spoil" />
+        </label>
+        <br />
+        <button>submit</button>
+      </form>
+      <hr>
+      
     </main>
+    <footer>
+        
+      <ul>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Social Media</a></li>
+      </ul>
+      <p>© 2024 by apsfilm.com</p>
+    </footer>
   </body>
 </html>
